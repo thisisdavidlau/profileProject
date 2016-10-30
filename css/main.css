@@ -1,0 +1,23 @@
+body {
+	background: url(https://wallpaperscraft.com/image/mac_os_x_apple_mavericks_waves_wave_94219_3840x2400.jpg) no-repeat fixed;
+	background-size: cover;
+	width: 100%;
+	min-height: 100%;
+}
+
+.window {
+	margin: 100px auto 0;
+	width: 400px;
+	height: 500px;
+	box-shadow: 0px 5px 60px 10px rgba(0,0,0,.5);
+}
+
+.windowBlur {
+	margin: 100px auto 0;
+	width: 400px;
+	height: 500px;
+	background: url(https://wallpaperscraft.com/image/mac_os_x_apple_mavericks_waves_wave_94219_3840x2400.jpg) no-repeat fixed;
+	overflow: hidden;
+	background-size: cover;
+	filter: blur(10px);
+}
